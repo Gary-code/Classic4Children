@@ -1,0 +1,7 @@
+model_name_or_path: ./pre-trained/qwen/Qwen2-7B-Instruct
+adapter_name_or_path: ./output/qwen2_lora_sft
+template: qwen
+finetuning_type: lora
+task: test_v1.json
+task_dir: ./Dataset/classic4child/
+save_dir: ./output/qwen_lora_eval
